@@ -5,6 +5,6 @@ Main.py: python file that structures the simulation run and post-processing. Her
 
 Model.py: It is the heart of the simulation model, where the grid is created, properties are populated (Por.txt and Perm_h.txt), wells are defined, initial BC are set etc.
 
-Por.txt: porosity array [fraction] called from Model.py.
+Por.txt: porosity array [fraction] called from Model.py. Generated with SGeMS (Geostatistics package).
 
-Perm_h.txt: permeability array [mD] called from Model.py.
+Perm_h.txt: permeability array [mD] called from Model.py. Generated with SGeMS (Geostatistics package).
