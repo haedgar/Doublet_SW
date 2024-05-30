@@ -6,7 +6,7 @@
 # <font color='blue'> $\;$ https://gitlab.com/open-darts/darts-workshop/-/blob/main/2.Geothermal_model.ipynb</font>
 # Edgar Hernandez
 
-
+from darts.models.reservoirs.struct_reservoir import StructReservoir   # structural discretizer
 from darts.models.physics.geothermal import Geothermal                 # define number of component
 from darts.models.darts_model import DartsModel
 from darts.models.physics.iapws.iapws_property_vec import _Backward1_T_Ph_vec  # transformation from T to entalpy
